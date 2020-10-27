@@ -1,0 +1,8 @@
+mode: ContinuousDeployment
+branches:
+  master:
+    mode: ContinuousDelivery
+    increment: None
+ignore:
+  sha: []
+merge-message-formats: {}
